@@ -7,14 +7,14 @@
 git config --global user.name "Your Name"
 git config --global user.email "your_email@whatever.com"
 
-![1](1.1.png)
+![1](1.1.jpg)
 
 2)Назва гілки за замовчуванням
 Ми будемо використовувати main як назву гілки за замовчуванням. Щоб налаштувати це, виконайте наступну команду:
 
 Виконайте
 git config --global init.defaultBranch main
-![2](1.2.png)
+![2](1.2.jpg)
 
 3)Коректна обробка закінчень рядків
 Для користувачів Windows:
@@ -22,4 +22,4 @@ git config --global init.defaultBranch main
 Виконайте
 git config --global core.autocrlf true
 git config --global core.safecrlf warn
-![3](1.3.png)
+![3](1.3.jpg)
